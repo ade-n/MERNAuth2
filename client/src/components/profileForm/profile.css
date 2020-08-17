@@ -1,0 +1,13 @@
+.profile {
+    background-image: url("../../assets/img/create_profile.svg");
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom;
+}
+
+@media only screen and (max-width: 750px) {
+    .profile {
+        background-image: none;
+    }
+}

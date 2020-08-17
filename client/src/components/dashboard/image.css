@@ -1,0 +1,14 @@
+.welcome {
+    background-image: url("../../assets/img/undraw_welcome_cats_thqn.svg");
+    background-size: 450px 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatarBackground {
+    z-index: -50;
+    background-image: url("../../assets/img/Subtle-Prism.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}

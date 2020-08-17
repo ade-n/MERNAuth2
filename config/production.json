@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://ade123:ade123@cluster0.nflvo.mongodb.net/MERNAuth2?retryWrites=true&w=majority",
+  "jwtSecret": "mysecretetoken"
+}

@@ -1,0 +1,29 @@
+.email {}
+
+.email input {
+    padding-left: 30px;
+    background-image: url("../../assets/img/at-symbol.svg");
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.password {}
+
+.password input {
+    padding-left: 30px;
+    background-image: url("../../assets/img/lock-closed.svg");
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.user {}
+
+.user input {
+    padding-left: 30px;
+    background-image: url("../../assets/img/user.svg");
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
