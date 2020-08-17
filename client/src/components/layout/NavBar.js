@@ -55,7 +55,7 @@ const NavBar = ({ auth: { isAuthenticated, loading }, logout }) => {
       className=" fixed z-10 w-full flex justify-between py-6 px-12 "
     >
       <div className="Roboto text-indigo-500 text-xl ">
-        <Link to="/">EliZa</Link>
+        <Link to="/">EliZalOGO</Link>
       </div>
       {!loading && (
         <Fragment>{isAuthenticated ? privateNav : publicNav}</Fragment>
