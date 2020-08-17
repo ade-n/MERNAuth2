@@ -95,9 +95,15 @@ const PostItem = ({
           <div>{likes.length} Likes </div>
 
           <div className="px-2">.</div>
-          <div className="cursor-pointer" onClick={handleShow}>
-            {comments.length} Comment
-          </div>
+          {comments.length > 1 ? (
+            <div className="cursor-pointer" onClick={handleShow}>
+              {comments.length} Comments
+            </div>
+          ) : (
+            <div className="cursor-pointer" onClick={handleShow}>
+              {comments.length} Comment
+            </div>
+          )}
         </div>
         <Moment format="DD/MM/YYYY" className="text-sm">
           {date}
